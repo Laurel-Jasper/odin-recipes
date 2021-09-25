@@ -13,17 +13,23 @@ body * {
 }
 
 /* Index.html Style */
+
 #home {
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 50px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 .header-container {
-  background-color: black;
+  background-color: #3797e6;
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  flex-direction: column;
+  column-gap: 25px;
 }
 
 .header-image {
@@ -32,42 +38,38 @@ body * {
 }
 
 .nav-container {
-    justify-content: space-evenly;
-    display: flex;
-    color: #ffffff;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 .nav-list {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin-right: 10px;
-    margin-left: -25px;
-    
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1000px;
+  height: 100px;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .nav-list > li {
-    display: flex;
-    justify-content: space-evenly;
-    width: 200px;
+  width: auto;
 }
 
 .nav-link {
-    display: flex;
-    justify-content: space-evenly;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-link:visited {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .nav-link:hover {
-    color: #ff7300;
+  cursor: pointer;
 }
 
 /* Tteokbokki.html */
 .recipe-header-container {
-    height: 200px;
+  height: 200px;
 }
