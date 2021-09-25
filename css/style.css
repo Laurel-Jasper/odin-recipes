@@ -22,8 +22,7 @@ body * {
 
 .header-container {
   background-color: black;
-  height: auto;
-  padding-bottom: 100px;
+  height: 100%;
   width: 100%;
 }
 
@@ -44,7 +43,7 @@ body * {
     list-style: none;
     margin-right: 10px;
     margin-left: -25px;
-    padding: 0;
+    
 }
 
 .nav-list > li {
@@ -68,3 +67,7 @@ body * {
     color: #ff7300;
 }
 
+/* Tteokbokki.html */
+.recipe-header-container {
+    height: 200px;
+}
