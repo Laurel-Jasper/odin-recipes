@@ -69,7 +69,22 @@ body * {
   cursor: pointer;
 }
 
-/* Tteokbokki.html */
+/* recipes */
 .recipe-header-container {
   height: 200px;
+}
+
+.h1-container {
+  text-align: center;
+  color: #3797e6;
+}
+.hero-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image {
+    justify-content: center;
+    height: auto;
+    width: 500px;
 }
