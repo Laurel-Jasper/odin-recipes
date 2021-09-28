@@ -121,8 +121,24 @@ body * {
   display: inline-block;
   width: 10px;
   margin-left: -15px;
+  padding-right: 0.5em;
 }
 
 .hero-ordered-list {
   margin-left: 18px;
+}
+
+.hero-ordered-list > li {
+  list-style-type: none;
+  counter-increment: item;
+}
+
+.hero-ordered-list > li::before {
+  display: inline-block;
+  width: 10px;
+  margin-left: -15px;
+  padding-right: 0.5em;
+  font-weight: bold;
+  text-align: right;
+  content: counter(item) ".";
 }
